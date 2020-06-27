@@ -1,0 +1,9 @@
+server:
+  port: 80 #web服务端口
+dubbo:
+  application:
+    name: dubbo-consumer #消费者名称
+  scan:
+    base-packages: com.gx.client.controller #需要使用到提供者服务的包路径
+  registry:
+    address: zookeeper://112.126.59.191:2181 #注册中心地址
