@@ -7,10 +7,15 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+/**
+ * @author GX
+ */
 @RestController
 public class PeopleController {
+
     @Reference
     private PeopleService peopleService;
+
     @GetMapping("/people/{name}")
     public People getPeople(@PathVariable("name") String name) {
         People people = new People();

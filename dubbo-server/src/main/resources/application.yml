@@ -12,4 +12,5 @@ dubbo:
     address: zookeeper://112.126.59.191:2181 #注册中心地址
 
 logging:
-  level: info #设置服务的日志输出级别为debug级level.com.czh.dubbo.provider.service=debug
+  level:
+    root: info #设置服务的日志输出级别为debug级level.com.czh.dubbo.provider.service=debug

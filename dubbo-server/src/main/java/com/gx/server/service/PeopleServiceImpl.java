@@ -16,7 +16,7 @@ public class PeopleServiceImpl implements PeopleService {
     @Override
     public People detail(People people) {
         people.setId(new Random().nextLong());
-        log.debug("People:{},ID:{}",people.getName(),people.getId());
+        logger.info("People:{},ID:{}",people.getName(),people.getId());
         return people;
     }
 }

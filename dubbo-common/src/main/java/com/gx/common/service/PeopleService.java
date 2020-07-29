@@ -8,7 +8,7 @@ import com.gx.common.model.People;
 public interface PeopleService {
     /**
      * 获取人员详情
-     * @param id
+     * @param people
      * @return
      * */
     People detail(People people);

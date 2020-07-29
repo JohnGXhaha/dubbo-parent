@@ -1,5 +1,5 @@
 server:
-  port: 80 #web服务端口
+  port: 8099 #web服务端口
 dubbo:
   application:
     name: dubbo-consumer #消费者名称
